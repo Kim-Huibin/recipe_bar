@@ -1,0 +1,35 @@
+
+
+img {
+    position: relative; 
+}
+
+.secondContainer{
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    transform-style: preserve-3d; 
+    transition: all 0.5s ease; 
+}
+
+.secondContainer:hover {
+    transform: rotateY(180deg)
+
+}
+
+.frontSide {
+    backface-visibility: hidden;
+ 
+}
+
+.backside{
+    font-weight: bold;
+    font-size: 4rem;
+    margin-top: -50%; 
+    text-align: center;
+    backface-visibility: hidden;
+    transform: rotateY(180deg)  
+    
+    
+
+}
